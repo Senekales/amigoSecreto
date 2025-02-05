@@ -14,6 +14,7 @@ function agregarAmigo(){
     }
 
     agregaAmigoALaLista(valor);
+    agregarNombreALaListaHTML(valor);
     inputElement.value ='';
 }
 
@@ -22,6 +23,15 @@ function agregaAmigoALaLista(nombre){
     amigos.push(nombre);
     console.log(`la lista de amigos ahora es ${amigos}`);
 }
+
+
+function agregarNombreALaListaHTML(nombre){
+    let listaAmigos =document.getElementById('listaAmigos');
+    let nuevoAmigo = document.createElement('li');
+    nuevoAmigo.textContent=nombre;
+    listaAmigos.appendChild(nuevoAmigo);
+}
+
 
 
 let frutas = ["Manzana", "Banana"];
