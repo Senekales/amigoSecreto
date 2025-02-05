@@ -13,12 +13,13 @@ function agregarAmigo(){
         return; // sale de la función si el valor está vacío
     }
 
-    agregaAmigoALaLista(valor);
+    agregaAmigoAlArreglo(valor);
     agregarNombreALaListaHTML(valor);
     inputElement.value ='';
+    
 }
 
-function agregaAmigoALaLista(nombre){
+function agregaAmigoAlArreglo(nombre){
     console.log(`agregando amigo: ${nombre}`)
     amigos.push(nombre);
     console.log(`la lista de amigos ahora es ${amigos}`);
@@ -27,12 +28,17 @@ function agregaAmigoALaLista(nombre){
 
 function agregarNombreALaListaHTML(nombre){
     let listaAmigos =document.getElementById('listaAmigos');
+    // listaAmigos.innerHTML ='';
     let nuevoAmigo = document.createElement('li');
     nuevoAmigo.textContent=nombre;
     listaAmigos.appendChild(nuevoAmigo);
+    // listaAmigos.appendChild(document.createTextNode(`se agrego ` + nombre));
 }
 
 
+
+
+/*
 
 let frutas = ["Manzana", "Banana"];
 
