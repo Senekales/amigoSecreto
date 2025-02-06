@@ -19,19 +19,22 @@ function agregarAmigo(){
     
 }
 
-function agregaAmigoAlArreglo(nombre){
+function agregaAmigoAlArreglo(nombre){  //se agregan los nombre al arreglo (Array) o ([])
     console.log(`agregando amigo: ${nombre}`)
     amigos.push(nombre);
     console.log(`la lista de amigos ahora es ${amigos}`);
 }
 
 
-function agregarNombreALaListaHTML(nombre){
-    let listaAmigos =document.getElementById('listaAmigos');
-    // listaAmigos.innerHTML ='';
+function agregarNombreALaListaHTML(nombre){ // Se agregan los nombres a la lista de HTML
+    let listaAmigos = document.getElementById('listaAmigos');
     let nuevoAmigo = document.createElement('li');
     nuevoAmigo.textContent=nombre;
     listaAmigos.appendChild(nuevoAmigo);
+
+
+
+    // listaAmigos.innerHTML ='';
     // listaAmigos.appendChild(document.createTextNode(`se agrego ` + nombre));
 }
 
