@@ -2,6 +2,9 @@
 //
 
 let amigos =[];
+//let arregloAmigosSinRepetidos = borrarNombresRepetidos(amigos);
+//console.log(arregloAmigosSinRepetidos);
+
 
 function agregarAmigo(){
     let inputElement= document.getElementById('amigo');
@@ -21,8 +24,21 @@ function agregarAmigo(){
 
 function agregaAmigoAlArreglo(nombre){  //se agregan los nombre al arreglo (Array) o ([])
     console.log(`agregando amigo: ${nombre}`)
-    amigos.push(nombre);
+    amigos.push(nombre.toUpperCase());
     console.log(`la lista de amigos ahora es ${amigos}`);
+
+    borrarNombresRepetidos(amigos);
+    
+}
+
+function borrarNombresRepetidos(amigos){  //borra los nombres repetidos del arreglo
+    let conjuntoUnico = new Set (amigos);
+    console.log(conjuntoUnico);
+    MostrarArregloSinRepetidos(conjuntoUnico);
+}
+
+function MostrarArregloSinRepetidos (conjuntoUnico){  // Muestra el arreglo de amigos sin repetidos
+    console.log("El array sin repetidos es", conjuntoUnico)
 }
 
 
@@ -31,13 +47,20 @@ function agregarNombreALaListaHTML(nombre){ // Se agregan los nombres a la lista
     let nuevoAmigo = document.createElement('li');
     nuevoAmigo.textContent=nombre;
     listaAmigos.appendChild(nuevoAmigo);
-
-
-
     // listaAmigos.innerHTML ='';
     // listaAmigos.appendChild(document.createTextNode(`se agrego ` + nombre));
 }
 
+
+
+
+/*
+function eliminarRepetidos(amigos) {
+    let conjuntoUnico = new set (amigos);
+    console.log(conjuntoUnico); 
+    return[...conjuntoUnico];
+   
+}
 
 
 
