@@ -17,19 +17,20 @@ function agregarAmigo(){
 function agregaAmigoAlArreglo(nombre){  
     console.log(`agregando amigo: ${nombre}`)
     amigos.push(nombre); // Guarda el nombre tal como se ingresó
+    amigos = borrarNombresRepetidos(amigos);// actualizamos amigos, variable global, con el arreglo de nombres único que retorna "borrarNombresRepetidos"
     console.log(`la lista de amigos ahora es ${amigos}`);
 }
 
 function borrarNombresRepetidos(amigos){
     const nombresEnMinuscula = amigos.map(nombre => nombre.toLowerCase());
     let conjuntoUnicoMinusculas = new Set(nombresEnMinuscula);
-
+    //console.log(conjuntoUnicoMinusculas);
     const conjuntoUnicoOriginalCase = new Set();
     nombresEnMinuscula.forEach(nombreMinuscula => {
         const nombreOriginal = amigos.find(amigo => amigo.toLowerCase() === nombreMinuscula);
         conjuntoUnicoOriginalCase.add(nombreOriginal);
     });
-    return conjuntoUnicoOriginalCase;
+    return array.from(conjuntoUnicoOriginalCase);
 }
 
 
