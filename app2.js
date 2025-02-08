@@ -65,4 +65,5 @@ function sortearAmigo() {
     resultadoElemento.innerHTML = `<li>El amigo sorteado es: <strong>${amigoSorteado}</strong></li>`;
     let botonParaSorteo = document.getElementById('botonSortearAmigo');
     botonParaSorteo.disabled = true; 
+    botonParaSorteo.style.backgroundColor = "lightgray";
 }
