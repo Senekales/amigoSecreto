@@ -51,3 +51,16 @@ function actualizarListaAmigosHTML() {
         listaAmigosElement.appendChild(nuevoAmigo);
     });
 }
+
+function sortearAmigo() {
+    let resultadoElemento = document.getElementById('resultado');
+
+    if (amigos.length === 0) {
+        resultadoElemento.innerHTML = '<li>No hay amigos disponibles para sortear.</li>';
+        return;
+    }
+
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    const amigoSorteado = amigos[indiceAleatorio];
+    resultadoElemento.innerHTML = `<li>El amigo sorteado es: <strong>${amigoSorteado}</strong></li>`;
+}
