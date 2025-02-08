@@ -25,12 +25,12 @@ function borrarNombresRepetidos(amigos){
     const nombresEnMinuscula = amigos.map(nombre => nombre.toLowerCase());
     let conjuntoUnicoMinusculas = new Set(nombresEnMinuscula);
     //console.log(conjuntoUnicoMinusculas);
-    const conjuntoUnicoOriginalCase = new Set();
+    const conjuntoUnicoOriginal = new Set();
     nombresEnMinuscula.forEach(nombreMinuscula => {
         const nombreOriginal = amigos.find(amigo => amigo.toLowerCase() === nombreMinuscula);
-        conjuntoUnicoOriginalCase.add(nombreOriginal);
+        conjuntoUnicoOriginal.add(nombreOriginal);
     });
-    return Array.from(conjuntoUnicoOriginalCase);
+    return Array.from(conjuntoUnicoOriginal);
 }
 
 
