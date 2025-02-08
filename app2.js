@@ -66,4 +66,5 @@ function sortearAmigo() {
     let botonParaSorteo = document.getElementById('botonSortearAmigo');
     botonParaSorteo.disabled = true; 
     botonParaSorteo.style.backgroundColor = "lightgray";
+    alert("Sorteo realizado. Refresca la página para otro sorteo");
 }
