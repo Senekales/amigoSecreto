@@ -30,7 +30,7 @@ function borrarNombresRepetidos(amigos){
         const nombreOriginal = amigos.find(amigo => amigo.toLowerCase() === nombreMinuscula);
         conjuntoUnicoOriginalCase.add(nombreOriginal);
     });
-    return array.from(conjuntoUnicoOriginalCase);
+    return Array.from(conjuntoUnicoOriginalCase);
 }
 
 
