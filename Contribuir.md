@@ -1,14 +1,15 @@
 # EN REVISIÓN ---- EN REVISIÓN ---- EN REVISIÓN ---- EN REVISIÓN
 
-# ¡Gracias por querer contribuir al proyecto Sorteo Amigo Secreto! 🎉
+# ¡Gracias por querer contribuir al proyecto Sorteo Amigo Secreto! 👍
 
-¡Agradecemos enormemente tu interés en contribuir a este proyecto de sorteo de amigo secreto!  Todas las contribuciones son bienvenidas y ayudan a mejorar la aplicación para todos.
+¡Agradezco enormemente tu interés en contribuir a este proyecto de sorteo de amigo secreto!  
+Todas las contribuciones son bienvenidas, ayudan a mejorar la aplicación y conocimientos. 🫂
 
 ## ¿Cómo puedo contribuir?
 
-Hay muchas maneras en las que puedes contribuir, ¡incluso si no eres un experto en JavaScript o desarrollo web!  Aquí tienes algunas ideas:
+Hay muchas maneras en las que puedes contribuir. Aquí tienes algunas ideas 💡:
 
-*   **Reportar errores (Bugs):** Si encuentras algún error o comportamiento inesperado en la aplicación, por favor, ¡háznoslo saber!  Reportar errores es una contribución muy valiosa.
+*   **Reportar errores (Bugs):** Si encuentras algún error o comportamiento inesperado en la aplicación, por favor, ¡házlo saber!. Reportar errores es una contribución muy valiosa.
 *   **Sugerir nuevas funcionalidades o mejoras (Features):** ¿Tienes alguna idea para hacer que el sorteo de amigo secreto sea aún mejor?  ¡Comparte tus sugerencias!
 *   **Mejorar la documentación:**  ¿Crees que la documentación (el README, comentarios en el código) podría ser más clara o completa?  ¡Tus mejoras son bienvenidas!
 *   **Contribuir con código:** Si te sientes cómodo con HTML, CSS o JavaScript, puedes ayudarnos a corregir errores, implementar nuevas funcionalidades o mejorar el código existente.
@@ -16,8 +17,8 @@ Hay muchas maneras en las que puedes contribuir, ¡incluso si no eres un experto
 ## Pasos para Contribuir
 
 1.  **Reportar un Error (Bug):**
-    *   Asegúrate de que el error no haya sido reportado ya buscando en la lista de [Issues](LINK_A_ISSUES_EN_GITHUB).
-    *   Si no existe un reporte similar, abre un nuevo [Issue](LINK_A_ISSUES_EN_GITHUB/new/choose).
+    *   Asegúrate de que el error no haya sido reportado ya buscando en la lista de [Issues](https://github.com/Senekales/amigoSecreto/issues).
+    *   Si no existe un reporte similar, abre un nuevo [Issue](https://github.com/Senekales/amigoSecreto/issues/new).
     *   En tu reporte, por favor, sé lo más detallado posible:
         *   Describe claramente el error que encontraste.
         *   Indica cómo reproducir el error paso a paso (si es posible).
@@ -25,8 +26,8 @@ Hay muchas maneras en las que puedes contribuir, ¡incluso si no eres un experto
         *   Incluye cualquier otra información que creas relevante para entender el problema.
 
 2.  **Sugerir una Nueva Funcionalidad o Mejora (Feature Request):**
-    *   Asegúrate de que la funcionalidad o mejora no haya sido ya sugerida buscando en la lista de [Issues](LINK_A_ISSUES_EN_GITHUB).
-    *   Si no existe una sugerencia similar, abre un nuevo [Issue](LINK_A_ISSUES_EN_GITHUB/new/choose) y elige la plantilla de "Feature request".
+    *   Asegúrate de que la funcionalidad o mejora no haya sido ya sugerida buscando en la lista de [Issues](https://github.com/Senekales/amigoSecreto/issues).
+    *   Si no existe una sugerencia similar, abre un nuevo [Issue](https://github.com/Senekales/amigoSecreto/issues/new) y elige la plantilla de "Feature request".
     *   Describe claramente la funcionalidad o mejora que propones.
     *   Explica por qué crees que esta funcionalidad sería valiosa para el proyecto.
     *   Si tienes ideas sobre cómo implementarla, ¡compártelas también!
