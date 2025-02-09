@@ -1,3 +1,5 @@
+# EN REVISIÓN ---- EN REVISIÓN ---- EN REVISIÓN ---- EN REVISIÓN
+
 # ¡Gracias por querer contribuir al proyecto Sorteo Amigo Secreto! 🎉
 
 ¡Agradecemos enormemente tu interés en contribuir a este proyecto de sorteo de amigo secreto!  Todas las contribuciones son bienvenidas y ayudan a mejorar la aplicación para todos.
