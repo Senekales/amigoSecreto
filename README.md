@@ -36,7 +36,7 @@
 
 ## Licencia
 
-Este proyecto se distribuye bajo la licencia [MIT License](LICENSE) (o la licencia que elijas).
+Este proyecto se distribuye bajo la licencia [MIT License](LICENSE)
 
 ## Contribuciones (Opcional)
 
