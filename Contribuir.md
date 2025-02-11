@@ -69,7 +69,11 @@ Mi objetivo es crear un espacio **colaborativo y positivo** para todos los que q
 
 ## Licencia
 
-Al contribuir a este proyecto, aceptas que tus contribuciones se distribuyan bajo la [Licencia MIT](LICENSE)
+Este proyecto se distribuye bajo la [Licencia MIT](LICENSE).
+La versión completa de la licencia (en inglés) se encuentra en el archivo [LICENSE](LICENSE).
+Una traducción de la licencia al español latino se encuentra en el archivo [LICENSE-ES.md](LICENSE-ES.md).
+
+Al contribuir a este proyecto, aceptas que tus contribuciones se distribuyan bajo la [Licencia MIT](LICENSE), [LICENSE-ES.md](LICENSE-ES.md)
 
 ## ¡Gracias de nuevo por tu contribución! ✨
 
