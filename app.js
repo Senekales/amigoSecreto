@@ -15,10 +15,10 @@ function agregarAmigo(){
 }
 
 function agregaAmigoAlArreglo(nombre){  
-    console.log(`agregando amigo: ${nombre}`)
+    //console.log(`agregando amigo: ${nombre}`)
     amigos.push(nombre); // Guarda el nombre tal como se ingresó
     amigos = borrarNombresRepetidos(amigos);// actualizamos amigos, variable global, con el arreglo de nombres único que retorna "borrarNombresRepetidos"
-    console.log(`la lista de amigos ahora es ${amigos}`);
+    //console.log(`la lista de amigos ahora es ${amigos}`);
 }
 
 function borrarNombresRepetidos(amigos){
@@ -66,5 +66,11 @@ function sortearAmigo() {
     let botonParaSorteo = document.getElementById('botonSortearAmigo');
     botonParaSorteo.disabled = true; 
     botonParaSorteo.style.backgroundColor = "lightgray";
+    let textBoxSorteo = document.getElementById('amigo');
+    textBoxSorteo.disabled = true;
+    textBoxSorteo.style.backgroundColor = "lightgray";
+    let botonAñadir = document.getElementById('botonAñadir');
+    botonAñadir.disabled = true;
+    botonAñadir.style.backgroundColor = "lightgray";
     // alert("Sorteo realizado. Refresca la página para otro sorteo"); //No funciona bien, no me gusta.
 }
