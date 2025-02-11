@@ -16,7 +16,7 @@ Hay muchas maneras en las que puedes contribuir. Aquí tienes algunas ideas 💡
 
 ## Pasos para Contribuir
 
-1.  **Reportar un Error (Bug):**
+1.  **Reportar un Error o Bug:**
     *   Asegúrate de que el error no haya sido reportado previamente, para eso busca en la lista de [Issues](https://github.com/Senekales/amigoSecreto/issues).
     *   Si no existe un reporte similar, abre un nuevo [Issue](https://github.com/Senekales/amigoSecreto/issues/new).
     *   En tu reporte, por favor, sé lo más detallado posible:
@@ -24,19 +24,20 @@ Hay muchas maneras en las que puedes contribuir. Aquí tienes algunas ideas 💡
         *   Indica cómo reproducir el error paso a paso (si es posible).
         *   Menciona qué navegador y sistema operativo estabas usando.
         *   Incluye cualquier otra información que creas relevante para entender el problema.
+        *   No olvides etiquetarlo como "Bug"
 
-2.  **Sugerir una Nueva Funcionalidad o Mejora (Feature Request):**
-    *   Asegúrate de que la funcionalidad o mejora no haya sido ya sugerida buscando en la lista de [Issues](https://github.com/Senekales/amigoSecreto/issues).
-    *   Si no existe una sugerencia similar, abre un nuevo [Issue](https://github.com/Senekales/amigoSecreto/issues/new) y elige la plantilla de "Feature request".
+2.  **Sugerir una Nueva Funcionalidad o Mejora:**
+    *   Asegúrate de que la funcionalidad o mejora no haya sido ya sugerida, para eso busca en la lista de [Issues](https://github.com/Senekales/amigoSecreto/issues).
+    *   Si no existe una sugerencia similar, abre un nuevo [Issue](https://github.com/Senekales/amigoSecreto/issues/new)
     *   Describe claramente la funcionalidad o mejora que propones.
     *   Explica por qué crees que esta funcionalidad sería valiosa para el proyecto.
     *   Si tienes ideas sobre cómo implementarla, ¡compártelas también!
+    *   No olvides etiquetarla como "Nueva funcionalidad"
 
-3.  **Contribuir con Código (Pull Request):**
+3.  **Contribuir con Código:**
     *   **Haz un "Fork" del repositorio:** Crea una copia personal del repositorio en tu propia cuenta de GitHub.
-    *   **Crea una rama (branch):**  En tu copia personal (fork), crea una nueva rama para tu contribución. Dale un nombre descriptivo, por ejemplo: `fix-error-en-sorteo` o `add-feature-compartir-redes`.
+    *   **Crea una rama (branch):**  En tu copia personal (fork), crea una nueva rama para tu contribución. Dale un nombre descriptivo, por ejemplo: `solucionar-error-en-sorteo` o `agregar-funcionalidad-compartir-redes`.
     *   **Realiza tus cambios:** Implementa tu corrección de error o nueva funcionalidad en tu rama.
-    *   **Sigue las guías de estilo (si existen, ver sección abajo).**
     *   **Escribe pruebas (si aplica y te sientes cómodo).**
     *   **Realiza "Commits" con mensajes claros y descriptivos.**  Un buen mensaje de commit explica *qué* has cambiado y *por qué*.
     *   **Asegúrate de que tus cambios funcionen correctamente** y no introduzcan nuevos errores.
