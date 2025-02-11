@@ -42,7 +42,7 @@ Hay muchas maneras en las que puedes contribuir. Aquí tienes algunas ideas 💡
     *   **Realiza "Commits" con mensajes claros y descriptivos.**  Un buen mensaje de commit explica *qué* has cambiado y *por qué*.
     *   **Asegúrate de que tus cambios funcionen correctamente** y no introduzcan nuevos errores.
     *   **Sube tu rama a tu repositorio forkeado (Push).**
-    *   **Abre un "Pull Request" (PR):** Desde tu repositorio forkeado, abre un Pull Request hacia la rama principal (`main` o `master`) del repositorio original.
+    *   **Abre un "Pull Request" (PR):** Desde tu repositorio forkeado, abre un Pull Request hacia la rama principal (`main`) del repositorio original.
     *   **Describe tu Pull Request:** En la descripción del Pull Request, explica claramente qué problema resuelve o qué funcionalidad añade tu código.  Haz referencia al Issue correspondiente si estás corrigiendo un error o implementando una funcionalidad sugerida.
 
 ## Guías de Estilo de Código
@@ -52,13 +52,24 @@ Hay muchas maneras en las que puedes contribuir. Aquí tienes algunas ideas 💡
 *   **Comentarios (cuando sean necesarios):** Comenta tu código para explicar partes complejas o decisiones no obvias.
 *   **JavaScript, HTML y CSS:**  Para este proyecto, las tecnologías principales son HTML, CSS y JavaScript.  Si contribuyes con código, asegúrate de que sea compatible con navegadores web modernos.
 
-## Código de Conducta (Opcional, pero recomendado para proyectos colaborativos)
+## Código de Conducta
 
-> *(Puedes incluir aquí un breve código de conducta si lo consideras necesario para fomentar un ambiente de colaboración respetuoso y positivo. Por ejemplo, puedes mencionar expectativas de comportamiento respetuoso, inclusivo y constructivo en las discusiones y contribuciones. Si tu proyecto es pequeño y esperas principalmente contribuciones pequeñas o correcciones de errores, esta sección puede ser opcional al principio y la puedes añadir si ves que es necesario en el futuro).*
+Me comprometo a crear una comunidad **abierta, acogedora y respetuosa**. Por lo tanto, invito a todos los colaboradores a participar en este proyecto.
+
+Para mantener un ambiente positivo, me comprometo y solicito a todos los participantes que se adhieran a los siguientes principios:
+
+*   **Ser respetuoso:** Trata a los demás con **amabilidad, paciencia y consideración**. Valora las diferentes perspectivas y experiencias.
+*   **Ser constructivo:**  Ofrece **críticas constructivas** y **sugerencias útiles**.  Enfócate en mejorar el proyecto.
+*   **Ser inclusivo:**  Da la bienvenida a colaboradores de **todos los orígenes y niveles de experiencia**.
+*   **Evitar comportamientos inaceptables:**  No toleraremos **acoso, insultos, discriminación, o cualquier forma de comportamiento irrespetuoso o destructivo**.
+
+En caso de comportamientos que violen este código de conducta, me reservo el derecho de tomar las acciones que se consideren apropiadas.
+
+Mi objetivo es crear un espacio **colaborativo y positivo** para todos los que quieran contribuir al proyecto Sorteo Amigo Secreto.  ¡Gracias por ayudar a lograrlo!
 
 ## Licencia
 
-Al contribuir a este proyecto, aceptas que tus contribuciones se distribuyan bajo la [Licencia MIT](LICENSE) (o la licencia que hayas elegido para el proyecto).
+Al contribuir a este proyecto, aceptas que tus contribuciones se distribuyan bajo la [Licencia MIT](LICENSE)
 
 ## ¡Gracias de nuevo por tu contribución! ✨
 
