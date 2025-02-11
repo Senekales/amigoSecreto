@@ -1,16 +1,18 @@
-<p align="center"><strong>Bienvenido al proyecto sorteo amigo secreto</strong></p>
+<p align="center"><strong>Sorteo Amigo Secreto</strong></p>
 
 ![banner amigo secreto](assets/banner-proyecto.png)
 
-**Este proyecto es una aplicación web sencilla desarrollada en HTML, CSS y JavaScript que permite elegir un "amigo secreto" entre un grupo de nombres, que previamente ingresa el usuario.  Agregas nombres a una lista y luego realizar un sorteo aleatorio para asignar un amigo secreto de manera justa y sin repeticiones.**
+**Organiza tu sorteo de Amigo Secreto de forma fácil y divertida con esta sencilla aplicación. Es una aplicación web sencilla desarrollada en HTML, CSS y JavaScript que permite elegir un "amigo secreto" entre un grupo de nombres, que previamente ingresa el usuario.  Agregas nombres a una lista y luego realizar un sorteo aleatorio para asignar un amigo secreto de manera justa y sin repeticiones.**
+
+**Divertido y facil para sorprender a tus amigos**
 
 ## Características Principales
 
-*   Permite agregar nombres de amigos a una lista, la que se actualiza en tiempo real.
-*   Elimina automáticamente nombres repetidos de la lista.
-*   Realiza un sorteo aleatorio de amigos secretos.
-*   Muestra el nombre del amigo secreto sorteado en la página.
-*   Bloquea el botón de sorteo después de realizarlo para evitar sorteos múltiples.
+*   📝 Agrega facilmente el nombre de tus amigos a una lista, la que se actualiza al instante.
+*   👾 Evita errores y repeticiones. Elimina automáticamente nombres repetidos de la lista.
+*   💯 Sorteo 100% aleatorio y justo. Realizando un sorteo aleatorio de amigos secretos.
+*   🔚 Resultados instantáneos y Visibles. Muestrando el nombre del amigo secreto sorteado en la página.
+*   🍀 Sorteo único y seguro. Bloqueando el botón de sorteo después de realizarlo, para evitar sorteos accidentales múltiples.
 
 ## Cómo Empezar
 
@@ -22,11 +24,12 @@
 ### Instrucciones de Uso
 
 1.  Abre el archivo `index.html` en tu navegador web.
-2.  Ingresa los nombres de tus amigos en el campo de texto "Nombre del amigo" y haz clic en "Agregar Amigo".
-3.  Repite el paso 2 para todos los amigos que participarán en el sorteo.
-4.  Haz clic en el botón "Sortear Amigo".
-5.  El nombre del amigo secreto sorteado se mostrará debajo del botón "Resultado del Sorteo".
-6.  Para realizar un nuevo sorteo, recarga la página e ingresa los nombres nuevamente.
+2.  Ingresa el nombre de un amigo en el campo de texto "Nombre del amigo" y haz clic en "Agregar Amigo".
+3.  Repite el paso 2 para cada amigo que vaya a participar en el sorteo.
+4.  Cuando tengas todos los nombres agregados, haz clic en el botón "Sortear Amigo".
+5.  El nombre del amigo secreto asignado a cada participante se mostrará en la sección de "Resultado del Sorteo", justo debajo del botón.
+6.  Para iniciar un nuevo sorteo, **recarga la página web** en tu navegador.
+7.  **Repite los pasos 2 al 4** para ingresar nuevos participantes y realizar un nuevo sorteo.
 
 ## Tecnologías Utilizadas
 
@@ -36,12 +39,14 @@
 
 ## Licencia
 
-Este proyecto se distribuye bajo la licencia [MIT License](LICENSE), [MIT License-ES](LICENSE-ES.md)
+Este proyecto se distribuye bajo la [Licencia MIT](LICENSE).
+La versión completa de la licencia (en inglés) se encuentra en el archivo [LICENSE](LICENSE).
+Una traducción de la licencia al español latino se encuentra en el archivo [LICENSE-ES.md](LICENSE-ES.md).
 
-## Contribuciones (Opcional)
+## Contribuciones
 
-Si deseas contribuir a este proyecto, por favor, lee el archivo `CONTRIBUTING.md` (si creas uno) para obtener instrucciones sobre cómo hacerlo.
+¡Las contribuciones son bienvenidas!  Si deseas contribuir a este proyecto, por favor, consulta nuestro [archivo Contribuir.md](Contribuir.md) para obtener más detalles sobre cómo hacerlo.
 
-## Contacto (Opcional)
+## Contacto 
 
-Puedes contactarme en [tu dirección de correo electrónico] o [tu perfil de GitHub/red social] (si deseas incluir esta información).
+Puedes contactarme en [rodolfo.fuentes.a@gmail.com] o [https://github.com/Senekales]
